@@ -1,0 +1,129 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-heading {
+  font-family: 'Poppins';
+  margin-top: 5.73rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: normal;
+  font-size: 2rem;
+  color: #1A4187;
+  line-height: 39.6px;
+}
+
+.left-section-card {
+  margin-top: 0;
+  margin-bottom: 3.3rem;
+  height: 38.29rem;
+  padding-top: 5.21rem;
+}
+
+.login-card-text {
+  margin-left: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.2372px;
+  line-height: 27px;
+  color: #547196;
+}
+
+.login-card input {
+  margin: 14.77px auto 32px auto;
+  width: 410px;
+  border: none;
+  outline: none;
+  background: #F7F7F7;
+  border-radius: 12.3123px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+}
+
+::placeholder {
+  color: #AAAAAA;
+}
+
+input:focus {
+  border: 1px solid;
+  color: grey
+}
+
+.login-card {
+  position: relative;
+}
+
+.login-card input {
+  text-indent: 3.3rem;
+}
+
+.icon {
+  position: absolute;
+  top: 1.1rem;
+  left: 4.3rem;
+  color: #AAAAAA;
+}
+
+.show {
+  position: absolute;
+  top: 1.1rem;
+  right: 4.3rem;
+  color: #AAAAAA;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.forget-password {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4B4C4D;
+  font-weight: 400;
+  margin-top: 3.01rem;
+  margin-bottom: 3.04rem;
+}
+
+.request-password {
+  color: #0659FD;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-button {
+  margin: auto;
+  margin-bottom: 3.04rem;
+  width: 25.17rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D2D3D9;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.login-button div {
+  color: #929CB1;
+  font-size: 1.22rem;
+  font-weight: 600;
+}
+
+.login-button:active {
+  background-color: #4485FD;
+  color: white;
+}

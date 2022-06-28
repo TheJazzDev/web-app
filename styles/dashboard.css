@@ -1,0 +1,183 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-grid {
+  /* display: grid; */
+  grid-template-columns: 273px 1fr 362px;
+}
+
+
+.nav-bar {
+  background-color: #F0F5FF;
+  margin: 0;
+  padding: 0;
+  height: 978px;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 273px;
+}
+
+.main-section {
+  background-color: #a6f8ff;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.sidebar-right {
+  background-color: #4485FD;
+  margin: 0;
+  padding: 0;
+  height: 978px;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  width: 362px;
+}
+
+.scroll-div {
+  border-radius: 20px;
+  background-color: white;
+  z-index: 200;
+  height: 1333px;
+  width: 783px;
+  margin: auto;
+}
+
+p {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.container-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.sidebar {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F0F5FF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 273px;
+  z-index: 200;
+  display: flex;
+}
+
+.sidebar-link {
+  height: 64px;
+  width: 207px;
+  margin-bottom: 16px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.sidebar-link:hover {
+  background-color: #4485FD;
+  border-radius: 10px;
+}
+
+.sidebar-brand {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 40.34px;
+  margin-top: 47.38px;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.sidebar-brand img {
+ height: 58px;
+ width: 59.67px;
+ margin-left: 40px;
+ margin-right: 12.33px;
+ display: inline-block;
+}
+
+.sidebar-brand div {
+  display: inline-block;
+  color: #4894FE;
+ }
+
+ .sidebar-brand span {
+  color: #1A4187;
+}
+
+.sidebar-link img {
+  height: 26px;
+  padding: 18px 15px 18px 36px;
+}
+
+.sidebar-link div {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #7889B2;
+}
+
+.logout-bar {
+  margin-top: 180px;
+  bottom: 120px;
+}
+
+
+
+.menu {
+  background-color: white;
+  border-radius: 20px;
+  top: 0;
+  position: fixed;
+  width: 783px;
+  height:1333px;
+  margin: auto;
+  margin-left: 273.1px;
+  display: flex;
+}
+
+
+.sidebar-right {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 362px;
+  z-index: 200;
+  display: flex;
+} */
